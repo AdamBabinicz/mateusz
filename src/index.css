@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Bevan&family=Bungee+Inline&family=Grenze+Gotisch:wght@300;500&family=Kelly+Slab&family=Rakkas&family=Rubik+Microbe&family=Rubik+Moonrocks&family=Rubik+Puddles&display=swap");
+
+:root {
+  --font-base: "Kelly Slab", cursive;
+
+  --primary-color: #edf2f8;
+  --secondary-color: #313bac;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+  --red-color: #ff0000;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Bevan', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Grenze Gotisch', cursive;
+font-family: 'Kelly Slab', cursive;
+font-family: 'Rakkas', cursive;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'Rubik Puddles', cursive; */

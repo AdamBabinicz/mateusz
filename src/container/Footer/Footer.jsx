@@ -42,7 +42,7 @@ const Footer = () => {
   return (
     <>
       <h2 className="head-text">
-        Co sądzisz <span>o mojej tezie?</span>
+        Co sądzisz <span>o tezie Mateusza?</span>
       </h2>
       <div className="app__footer-cards">
         <div className="app__footer-card">

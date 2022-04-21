@@ -10,7 +10,7 @@
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   position: fixed;
-  z-index: 999;
+  z-index: 2;
 }
 
 .app__navbar-logo {
@@ -107,6 +107,11 @@
     //  background-size: contain;
     /* top box shadow */
     box-shadow: 0px 0px 20px rgba(168, 168, 168, 0.15);
+
+    @media screen and (max-width: 800px) {
+      background: url("../../assets/3.png") center bottom/50% no-repeat;
+      background-color: var(--white-color);
+    }
 
     svg {
       width: 35px;

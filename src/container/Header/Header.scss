@@ -72,6 +72,10 @@
     margin-top: 3rem;
     background: var(--red-color);
 
+    @media screen and (max-width: 600px) {
+      align-items: center;
+    }
+
     p {
       width: 100%;
       text-align: right;
